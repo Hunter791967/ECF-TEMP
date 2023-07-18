@@ -1,870 +1,997 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-    <meta name="description" content="">
-    <link rel="shortcut icon" href="images/Logo/ECF-Temp Logo.png" height="40px" type="image/x-icon">
-    <title>ECF-Temp</title> 
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script&family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <!-- materialize library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <!-- swiper library -->
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
-    <!-- custom style -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/history-slider.css">
-    <link rel="stylesheet" href="css/mobile-style.css">
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="images/Logo/ECF-Temp Logo.png" height="40px" type="image/x-icon">
+  <title>ECF-Temp</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script&family=Montserrat&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- materialize library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- swiper library -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+  <!-- custom style -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/history-slider.css">
+  <link rel="stylesheet" href="css/mobile-style.css">
 </head>
-<body>
-       <!-- start section one -->
 
-    <div class="section_one">
-        <div class="section_oneTopRight">
-            <div class="section_oneRight"></div>
-            <div class="ecf_title">EGYPTIAN CROQUET FEDERATION<small>...SINCE 1967</small></div>
-        </div>
-        <div class="section_oneLeft">
-        <div class="coming_soonOne">
-            <div class="main_title">COMING SOON</div>
-            <div class="sub_title">Expected Launch Time for the Main Web Site Will be March, 31</div>
-            <div class="countDown">
-                <div class="days">
-                    <span id="days"></span>
-                    <span id="days_text" class="days_text">Days</span>
-                </div>
-                <div class="hours">
-                    <span id="hours"></span>
-                    <span id="hours_text" class="hours_text">Hours</span>
-                </div>
-                <div class="minutes">
-                    <span id="minutes"></span>
-                    <span id="minutes_text" class="minutes_text">Minutes</span>
-                </div>
-                <div class="seconds">
-                    <span id="seconds"></span>
-                    <span id="seconds_text" class="seconds_text">Seconds</span>
-                </div>
-                <div class="expired" id="expired" style="display: none;">This Offer Was Expired</div>
-            </div>
-        </div>
+<body>
+  <!-- start section one -->
+
+  <div class="section_one">
+    <div class="section_oneTopRight">
+      <div class="section_oneRight"></div>
+      <div class="ecf_title">EGYPTIAN CROQUET FEDERATION<small>...SINCE 1967</small></div>
     </div>
-    </div>
-    
-    <!-- end section one -->
-    
-    <!-- start section two -->
-    <div class="section_two" >
-        <div class="section_twoLeft box box1">
-            <div class="first_half first_half-section2 ">
-              <div class="section_twoTitle">ECF Overview</div>
-                <div class="section_twoDesc">The Egyptian Croquet Federation "ECF" is the offcial organization of crouqet sport in Egypt. ECF main function is to act as the overall co-ordinator between the egyptian crouqet soport clubs. Its main responsibilities are to organise Local Championships such as premier league, Egyptian Cup..etc. Also,ECF facilitate development of the game and maintain effective liaison with its Members.
-                </div>
-                <div class="agenda-parent">
-                  <div class="agenda agenda1">2022 - 2023 <br> AGENDA</div>
-                </div>
-              </div>
-              <!-- agenda small screen ------>
-              <div class="section-agenda-small-screen">
-                <div class="agenda-container agend3">
-                  <div class="agenda-cup">
-                  <div class="btnn btn1">FEDERATION CUP</div>
-                  <div class="btnn btn2">EGYPTIAN CUP</div>
-                  <div class="btnn btn3">EGYPT INTERNATIONAL</div>
-                  <div class="btnn btn4">EGYPTIAN LEAGUE</div>
-                  </div>
-                </div>
-              </div>
-              <!-- END agenda small screen -->
-            <div class="second_half"><img src="./images/remaining-images/ECF_35.jpg" alt="ECF Head Office Image"></div>
+    <div class="section_oneLeft">
+      <div class="coming_soonOne">
+        <div class="main_title">COMING SOON</div>
+        <div class="sub_title">Expected Launch Time for the Main Web Site Will be March, 31</div>
+        <div class="countDown">
+          <div class="days">
+            <span id="days"></span>
+            <span id="days_text" class="days_text">Days</span>
+          </div>
+          <div class="hours">
+            <span id="hours"></span>
+            <span id="hours_text" class="hours_text">Hours</span>
+          </div>
+          <div class="minutes">
+            <span id="minutes"></span>
+            <span id="minutes_text" class="minutes_text">Minutes</span>
+          </div>
+          <div class="seconds">
+            <span id="seconds"></span>
+            <span id="seconds_text" class="seconds_text">Seconds</span>
+          </div>
+          <div class="expired" id="expired" style="display: none;">It is a final countdown</div>
         </div>
-         <!-- agenda medium screen ------>
-        <div class="section-agenda-medium-screen ">
-          <div class="agenda-container agend2">
-            <div class="agenda-cup">
+      </div>
+    </div>
+  </div>
+
+  <!-- end section one -->
+
+  <!-- start section two -->
+  <div class="section_two">
+    <div class="section_twoLeft box box1">
+      <div class="first_half first_half-section2 ">
+        <div class="section_twoTitle">ECF Overview</div>
+        <div class="section_twoDesc">The Egyptian Croquet Federation "ECF" is the offcial organization of crouqet sport
+          in Egypt. ECF main function is to act as the overall co-ordinator between the egyptian crouqet soport clubs.
+          Its main responsibilities are to organise Local Championships such as premier league, Egyptian Cup..etc.
+          Also,ECF facilitate development of the game and maintain effective liaison with its Members.
+        </div>
+        <div class="agenda-parent">
+          <div class="agenda agenda1">2022 - 2023 <br> AGENDA</div>
+        </div>
+      </div>
+      <!-- agenda small screen ------>
+      <div class="section-agenda-small-screen">
+        <div class="agenda-container agend3">
+          <div class="agenda-cup">
             <div class="btnn btn1">FEDERATION CUP</div>
             <div class="btnn btn2">EGYPTIAN CUP</div>
             <div class="btnn btn3">EGYPT INTERNATIONAL</div>
             <div class="btnn btn4">EGYPTIAN LEAGUE</div>
-            </div>
           </div>
         </div>
-        <div class="section_twoRight box box2">
-            <div class="chairman_image"></div>
-            <div class="position"><div class="chairman_name">Dr. Mohamed Raslaan</div class="chairman_position"><div>Chairman Of The Board</div></div>
-            <div class="speech">I am pleased to announce to all the Croquet players and the Croquet family in Egypt the launch of the official website of the Egyptian Croquet Federation “ECF”.  I hope that this website  will be  the best way to communicate and know all the news of the Croquet game  for both the Egyptian and World Federations. We wish all the success for the benefit of our beloved game.</div>
-        </div>
-    </div>    
-    <!-- end section two -->
-    <!-- section agenda large screen -->
-    <section class="agenda-section-larg-screen">
-      <div class="agenda-container agend1" >
+      </div>
+      <!-- END agenda small screen -->
+      <div class="second_half"><img src="./images/remaining-images/ECF_35.jpg" alt="ECF Head Office Image"></div>
+    </div>
+    <!-- agenda medium screen ------>
+    <div class="section-agenda-medium-screen ">
+      <div class="agenda-container agend2">
         <div class="agenda-cup">
+          <div class="btnn btn1">FEDERATION CUP</div>
+          <div class="btnn btn2">EGYPTIAN CUP</div>
+          <div class="btnn btn3">EGYPT INTERNATIONAL</div>
+          <div class="btnn btn4">EGYPTIAN LEAGUE</div>
+        </div>
+      </div>
+    </div>
+    <div class="section_twoRight box box2">
+      <div class="chairman_image"></div>
+      <div class="position">
+        <div class="chairman_name">Dr. Mohamed Raslaan</div class="chairman_position">
+        <div>Chairman Of The Board</div>
+      </div>
+      <div class="speech">I am pleased to announce to all the Croquet players and the Croquet family in Egypt the launch
+        of the official website of the Egyptian Croquet Federation “ECF”. I hope that this website will be the best way
+        to communicate and know all the news of the Croquet game for both the Egyptian and World Federations. We wish
+        all the success for the benefit of our beloved game.</div>
+    </div>
+  </div>
+  <!-- end section two -->
+  <!-- section agenda large screen -->
+  <section class="agenda-section-larg-screen">
+    <div class="agenda-container agend1">
+      <div class="agenda-cup">
         <div class="btnn btn1">FEDERATION CUP</div>
         <div class="btnn btn2">EGYPTIAN CUP</div>
         <div class="btnn btn3">EGYPT INTERNATIONAL</div>
         <div class="btnn btn4">EGYPTIAN LEAGUE</div>
-        </div>
       </div>
-    </section>
-    <!-- END section agenda large screen -->
-    <!-- start section three -->
-    <div class="section_three">
-        <div class="section_threeTitle box">Croquet In A Brief</div>
-        <div class="section_threeCore">
-            <div class="section_threeCoreLeft box box1">In golf croquet, a hoop is won by the first ball to go through each hoop. Unlike association croquet, there are no additional turns for hitting other balls.  Each player takes a stroke in turn, each trying to hit a ball through the same hoop. The sequence of play is blue, red, black, yellow. Blue and black balls play against red and yellow. When a hoop is won, the sequence of play continues as before. The winner of the game is the player/team who wins the most hoops.      Golf croquet is the fastest-growing version of the game, owing largely to its simplicity and competitiveness. There is an especially large interest in competitive success by players in Egypt.Golf croquet is easier to learn and play, but requires strategic skills and accurate play.</div>
-            <div class="section_threeCoreRight box box2"><img src="images/slide1_1370719835.jpg" alt="" srcset=""></div>
-        </div>
     </div>
-    <!-- end section three -->
-    
-    <!--start history slider -->
-    <section class="section-history" >
-        <div class="hestory-title">History of Croquet Federation Board Of Directors</div>
-    <div class="history-slider">
-        <div class="blog-slider">
-          <div class="blog-slider__wrp swiper-wrapper">
-            <div class="blog-slider__item swiper-slide">
-              <div class="blog-slider__img">
-                <img src="images/history-slider/hamroush01.jpg" alt="">
-              </div>
-              <div class="blog-slider__content">
-                <span class="blog-slider__code">From March 10 1967 To September 23 1969</span>
-                <div class="blog-slider__text">
-                  <strong>Chairman: Ahmed Hamrush</strong>
-                  <p>Members:</p>
-                  <ul class="history-member">
-                    <li>- Sadek Alrashidy</li>
-                    <li>- Nader Al Shobashy</li>
-                    <li>- Sayed Salem Abdel Majeed</li>
-                    <li>- Ahmed Kamel Yaseen</li>
-                    <li>- Ihab Kamel</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="blog-slider__item swiper-slide">
-              <div class="blog-slider__img">
-                <img src="images/history-slider/hamroush01.jpg" alt="">
-              </div>
-              <div class="blog-slider__content">
-                <span class="blog-slider__code">From September 23 1969 To July 1971</span>
-                <div class="blog-slider__text">
-                  <strong>Chairman: Ahmed Hamrush</strong>
-                  <p>Members:</p>
-                  <ul class="history-member">
-                    <li>- Sadek Alrashidy</li>
-                    <li>- Nader Al Shobashy</li>
-                    <li>- Ahmed Kamel Yaseen</li>
-                    <li>- Ahmed Ayad</li>
-                    <li>- Fouad Ayad</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-         
-            <div class="blog-slider__item swiper-slide">
-              <div class="blog-slider__img">
-                <img src="images/history-slider/noface01.jpg" alt="">
-              </div>
-              <div class="blog-slider__content">
-                <span class="blog-slider__code">From July 19 1971 To October 1 1973</span>
-                <div class="blog-slider__text">
-                  <strong>Deputy Chairman: Mohamed Abdel Razek Nabawi</strong>
-                  <p>Members:</p>
-                  <ul class="history-member">
-                    <li>- Ahmed Ayad</li>
-                    <li>- Al Sadek Halawa</li>
-                    <li>- Fouaad Kamal</li>
-                    <li>- Zaki Fanous</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="blog-slider__item swiper-slide">
-              <div class="blog-slider__img">
-                <img src="images/history-slider/hamroush01.jpg" alt="">
-              </div>
-              <div class="blog-slider__content">
-                <span class="blog-slider__code">From October 1 1973 To February 11 1977</span>
-                <div class="blog-slider__text">
-                  <strong>Chairman: Ahmed Hamrush</strong>
-                  <p>Members:</p>
-                  <ul class="history-member">
-                    <li>- Kamal Hamza</li>
-                    <li>- Ahmed Ayad</li>
-                    <li>- Ibrahim Mahmoud</li>
-                    <li>- Zaki Al Seweedy</li>
-                    <li>- Zaki Fanous</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="blog-slider__item swiper-slide">
-              <div class="blog-slider__img">
-                <img src="images/history-slider/hamroush01.jpg" alt="">
-              </div>
-              <div class="blog-slider__content">
-                <span class="blog-slider__code">From February 11 1977 To November 21 1980</span>
-                <div class="blog-slider__text">
-                  <strong>Chairman: Ahmed Hamrush</strong>
-                  <p>Members:</p>
-                  <ul class="history-member">
-                    <li>- Kamal Hamza</li>
-                    <li>- Ahmed Ayad</li>
-                    <li>- Mahmoud Hosny</li>
-                    <li>- Zaki Fanous</li>
-                    <li>- Ahmed Fouad</li>
-                    <li>- Mahmoud Ramadan</li>
-                    <li>- Mohamed Mazhar</li>
-                    <li>- Kamal Marzouk</li>
-                    <li>- Ezzat Mahmoud Ezzat</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="blog-slider__item swiper-slide">
-              <div class="blog-slider__img">
-                <img src="images/history-slider/hamroush01.jpg" alt="">
-              </div>
-              <div class="blog-slider__content">
-                <span class="blog-slider__code">From November 21 1980 To December 21 1984</span>
-                <div class="blog-slider__text">
-                  <strong>Chairman: Ahmed Hamrush</strong>
-                  <p>Members:</p>
-                  <ul class="history-member">
-                    <li>- Mohamed Anwar Tolaimaat</li>
-                    <li>- Muneer Henery Badeer</li>
-                    <li>- Mohamed Ahmed Alyaski</li>
-                    <li>- Zaki Al Seweedy</li>
-                    <li>- Zaki Fanous</li>
-                    <li>- Mohamed Mazhar</li>
-                    <li>- Kamal Marzouk</li>
-                    <li>- Ezzat Mahmoud Ezzat</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="blog-slider__item swiper-slide">
-              <div class="blog-slider__img">
-                <img src="images/history-slider/Kamal0102.jpg" alt="">
-              </div>
-              <div class="blog-slider__content">
-                <span class="blog-slider__code">From December 21 1984 To April 04 1989</span>
-                <div class="blog-slider__text">
-                  <strong>Chairman: Kamal Henery Abadair</strong>
-                  <p>Members:</p>
-                  <ul class="history-member">
-                    <li>- Abdel Gany Al Beshry</li>
-                    <li>- Abdel Rahman Gamal Al Din</li>
-                    <li>- Mohamed Al Yaski</li>
-                    <li>- Zaki Al Seweedy</li>
-                    <li>- Mahmoud Abu Al Nour</li>
-                    <li>- Mohamed Yehia Abu Hussien</li>
-                    <li>- Samir Shahin</li>
-                    <li>- Ibrahim Al Azab</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="blog-slider__item swiper-slide">
-              <div class="blog-slider__img">
-                <img src="images/history-slider/Kamal0102.jpg" alt="">
-              </div>
-              <div class="blog-slider__content">
-                <span class="blog-slider__code">From April 04 1989 To October 16 1992</span>
-                <div class="blog-slider__text">
-                  <strong>Chairman: Kamal Henery Abadair</strong>
-                  <p>Members:</p>
-                  <ul class="history-member">
-                    <li>- Abdel Gany Al Beshry</li>
-                    <li>- Medhat Hamdi</li>
-                    <li>- Wagdi Haseeb</li>
-                    <li>- Emad Salah Al Deen</li>
-                    <li>- Mahmoud Abu Al Nour</li>
-                    <li>- Mohamed Samir Shahin</li>
-                    <li>- Hussam Mahdy Alaam
-                    <li>- Fathy Ibrahim Zyadaa</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="blog-slider__item swiper-slide">
-              <div class="blog-slider__img">
-                <img src="images/history-slider/hamroush01.jpg" alt="">
-              </div>
-              <div class="blog-slider__content">
-                <span class="blog-slider__code">From October 16 1992 To September 19 1996</span>
-                <div class="blog-slider__text">
-                  <strong>Chairman: Ahmed Hamrush</strong>
-                  <p>Members:</p>
-                  <ul class="history-member">
-                    <li>- Kamal Hamza</li>
-                    <li>- Rashad Aref</li>
-                    <li>- Wagdi Haseeb</li>
-                    <li>- Amin Ghaly</li>
-                    <li>- Hassan Wasfy Hassan</li>
-                    <li>- Mohamed Hamdy Hamed</li>
-                    <li>- Mohamed Abu Alam</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="blog-slider__item swiper-slide">
-                <div class="blog-slider__img">
-                  <img src="images/history-slider/hamroush01.jpg" alt="">
-                </div>
-                <div class="blog-slider__content">
-                  <span class="blog-slider__code">From September 19 1996 To October 23 2000</span>
-                  <div class="blog-slider__text">
-                    <strong>Chairman: Ahmed Hamrush</strong>
-                    <p>Members:</p>
-                    <ul class="history-member">
-                      <li>- Kamal Hamza</li>
-                      <li>- Adel Iskandar</li>
-                      <li>- Abdul Qader Salem</li>
-                      <li>- Mohamed Abu Alam</li>
-                      <li>- Amin Ghaly</li>
-                      <li>- Marwan Mustafa</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="blog-slider__item swiper-slide">
-                <div class="blog-slider__img">
-                  <img src="images/history-slider/yaseen02.jpg" alt="">
-                </div>
-                <div class="blog-slider__content">
-                  <span class="blog-slider__code">From November 16 2000 To March 23 2001</span>
-                  <div class="blog-slider__text">
-                    <strong>Chairman: Ahmed Kamel Yassen</strong>
-                    <p>Members:</p>
-                    <ul class="history-member">
-                      <li>- Abdel Hady Nassif</li>
-                      <li>- Kamal Al Quady</li>
-                      <li>- Wagdi Haseeb</li>
-                      <li>- Ahmed Shoukry</li>
-                      <li>- Rafeea Abbaas Helmy</li>
-                      <li>- Galal Mustafa</li>
-                      <li>- Mohamed Abu Salem</li>
-                      <li>- Ezzat Mohamed Ezzat</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="blog-slider__item swiper-slide">
-                <div class="blog-slider__img">
-                  <img src="images/history-slider/amir05.jpg" alt="">
-                </div>
-                <div class="blog-slider__content">
-                  <span class="blog-slider__code">From March 22 2001 To December 24 2004</span>
-                  <div class="blog-slider__text">
-                    <strong>Chairman: Amir Ramsis Naguib</strong>
-                    <p>Members:</p>
-                    <ul class="history-member">
-                      <li>- Mohamed Adel Rabeeh</li>
-                      <li>- Tarek Aboulatta</li>
-                      <li>- Amin Ghaly</li>
-                      <li>- Rafeea Abbaas Helmy</li>
-                      <li>- Ahmed Shoukry</li>
-                      <li>- Adel Al Harakany</li>
-                      <li>- Hussam Ammar</li>
-                      <li>- Kamal Al Quady</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="blog-slider__item swiper-slide">
-                <div class="blog-slider__img">
-                  <img src="images/history-slider/amir05.jpg" alt="">
-                </div>
-                <div class="blog-slider__content">
-                  <span class="blog-slider__code">From December 24 2004 To September 26 2008</span>
-                  <div class="blog-slider__text">
-                    <strong>Chairman: Amir Ramsis Naguib</strong>
-                    <p>Members:</p>
-                    <ul class="history-member">
-                      <li>- Mohamed Adel Rabeeh</li>
-                      <li>- Tarek Aboulatta</li>
-                      <li>- Amr Tork</li>
-                      <li>- Rafeea Abbaas Helmy</li>
-                      <li>- Ahmed Helmy</li>
-                      <li>- Mohamed Anan</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="blog-slider__item swiper-slide">
-                <div class="blog-slider__img">
-                  <img src="images/history-slider/mhamdy02.jpg" alt="">
-                </div>
-                <div class="blog-slider__content">
-                  <span class="blog-slider__code">From 2008 To 2010</span>
-                  <div class="blog-slider__text">
-                    <strong>Chairman: Mohamed Hamdi Hamed</strong>
-                    <p>Members:</p>
-                    <ul class="history-member">
-                      <li>- Amir Ramsis Naguib</li>
-                      <li>- Mona Hegazy</li>
-                      <li>- Mohamed Enan</li>
-                      <li>- Ahmed Helmy</li>
-                      <li>- Yousry Ghamry</li>
-                      <li>- Mohamed Hassan</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="blog-slider__item swiper-slide">
-                <div class="blog-slider__img">
-                  <img src="images/history-slider/ahmedhelmy03.jpg" alt="">
-                </div>
-                <div class="blog-slider__content">
-                  <span class="blog-slider__code">From 2010 To 2012</span>
-                  <div class="blog-slider__text">
-                    <strong>Chairman: Ahmed Helmy</strong>
-                    <p>Members:</p>
-                    <ul class="history-member">
-                      <li>- Amir Ramsis Naguib</li>
-                      <li>- Mohamed Enan</li>
-                      <li>- Mohamed Hassan</li>
-                      <li>- Sherif Abu Asbae</li>
-                      <li>- Gamal Hazem</li>
-                      <li>- Omar Badawi</li>
-                      <li>- Amal Allaban</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="blog-slider__item swiper-slide">
-                <div class="blog-slider__img">
-                  <img src="images/history-slider/amir05.jpg" alt="">
-                </div>
-                <div class="blog-slider__content">
-                  <span class="blog-slider__code">From 2012 To 2016</span>
-                  <div class="blog-slider__text">
-                    <strong>Chairman: Amir Ramsis Naguib</strong>
-                    <p>Members:</p>
-                    <ul class="history-member">
-                      <li>- Rafeea Abbaas Helmy</li>
-                      <li>- Mohamed Adel Rabie</li>
-                      <li>- Mohamed Hassan</li>
-                      <li>- Gamal Hazem</li>
-                      <li>- Ismaïl Leheta</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="blog-slider__item swiper-slide">
-                <div class="blog-slider__img">
-                  <img src="images/history-slider/amir05.jpg" alt="">
-                </div>
-                <div class="blog-slider__content">
-                  <span class="blog-slider__code">From 2017 To 2021</span>
-                  <div class="blog-slider__text">
-                    <strong>Chairman: Amir Ramsis Naguib</strong>
-                    <p>Members:</p>
-                    <ul class="history-member">
-                      <li>- Mohamed Enan</li>
-                      <li>- Mohamed Yousry Ghamry</li>
-                      <li>- Gamal Hazem</li>
-                      <li>- Youssef Gabr</li>
-                      <li>- Iman Radi</li>
-                      <li>- Hesham Alam Eldeen</li>
-                      <li>- Ayman Abdel Wahab</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="blog-slider__item swiper-slide">
-                <div class="blog-slider__img">
-                  <img src="images/history-slider/Chairman-mohamed-raslaan.jpg" alt="">
-                </div>
-                <div class="blog-slider__content">
-                  <span class="blog-slider__code">From 2021 To 2024</span>
-                  <div class="blog-slider__text">
-                    <strong>Chairman: Mohamed Hatem Raslaan</strong>
-                    <p>Members:</p>
-                    <ul class="history-member">
-                      <li>- Tarek Aboulatta</li>
-                      <li>- Hatem Esmat</li>
-                      <li>- Ayman Abdel Wahab</li>
-                      <li>- Mohamed Hassan</li>
-                      <li>- Amal Allaban</li>
-                      <li>- Yousry Ghamry "Resigned"</li>
-                      <li>- Salah Hassan "Resigned"</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-          </div> 
-          <div class="blog-slider__pagination"></div>
-        </div>
-        
-      </div>
-    </section>
-    <!--end history slider -->
+  </section>
+  <!-- END section agenda large screen -->
+  <!-- start section three -->
+  <div class="section_three">
+    <div class="section_threeTitle box">Croquet In A Brief</div>
+    <div class="section_threeCore">
+      <div class="section_threeCoreLeft box box1">In golf croquet, a hoop is won by the first ball to go through each
+        hoop. Unlike association croquet, there are no additional turns for hitting other balls. Each player takes a
+        stroke in turn, each trying to hit a ball through the same hoop. The sequence of play is blue, red, black,
+        yellow. Blue and black balls play against red and yellow. When a hoop is won, the sequence of play continues as
+        before. The winner of the game is the player/team who wins the most hoops. Golf croquet is the fastest-growing
+        version of the game, owing largely to its simplicity and competitiveness. There is an especially large interest
+        in competitive success by players in Egypt.Golf croquet is easier to learn and play, but requires strategic
+        skills and accurate play.</div>
+      <div class="section_threeCoreRight box box2"><img src="images/slide1_1370719835.jpg" alt="" srcset=""></div>
+    </div>
+  </div>
+  <!-- end section three -->
 
-    <!--start section four  -->
-    <div class="section_four" >
-        <div id="champoins_title" class="champions_title">
-            Memorable photos of the Egyptian champions in throughout the different times
+  <!--start history slider -->
+  <section class="section-history">
+    <div class="hestory-title">History of Croquet Federation Board Of Directors</div>
+    <div class="history-slider">
+      <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/hamroush01.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From March 10 1967 To September 23 1969</span>
+              <div class="blog-slider__text">
+                <strong>Chairman: Ahmed Hamrush</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Sadek Alrashidy</li>
+                  <li>- Nader Al Shobashy</li>
+                  <li>- Sayed Salem Abdel Majeed</li>
+                  <li>- Ahmed Kamel Yaseen</li>
+                  <li>- Ihab Kamel</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/hamroush01.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From September 23 1969 To July 1971</span>
+              <div class="blog-slider__text">
+                <strong>Chairman: Ahmed Hamrush</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Sadek Alrashidy</li>
+                  <li>- Nader Al Shobashy</li>
+                  <li>- Ahmed Kamel Yaseen</li>
+                  <li>- Ahmed Ayad</li>
+                  <li>- Fouad Ayad</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/noface01.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From July 19 1971 To October 1 1973</span>
+              <div class="blog-slider__text">
+                <strong>Deputy Chairman: Mohamed Abdel Razek Nabawi</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Ahmed Ayad</li>
+                  <li>- Al Sadek Halawa</li>
+                  <li>- Fouaad Kamal</li>
+                  <li>- Zaki Fanous</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/hamroush01.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From October 1 1973 To February 11 1977</span>
+              <div class="blog-slider__text">
+                <strong>Chairman: Ahmed Hamrush</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Kamal Hamza</li>
+                  <li>- Ahmed Ayad</li>
+                  <li>- Ibrahim Mahmoud</li>
+                  <li>- Zaki Al Seweedy</li>
+                  <li>- Zaki Fanous</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/hamroush01.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From February 11 1977 To November 21 1980</span>
+              <div class="blog-slider__text">
+                <strong>Chairman: Ahmed Hamrush</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Kamal Hamza</li>
+                  <li>- Ahmed Ayad</li>
+                  <li>- Mahmoud Hosny</li>
+                  <li>- Zaki Fanous</li>
+                  <li>- Ahmed Fouad</li>
+                  <li>- Mahmoud Ramadan</li>
+                  <li>- Mohamed Mazhar</li>
+                  <li>- Kamal Marzouk</li>
+                  <li>- Ezzat Mahmoud Ezzat</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/hamroush01.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From November 21 1980 To December 21 1984</span>
+              <div class="blog-slider__text">
+                <strong>Chairman: Ahmed Hamrush</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Mohamed Anwar Tolaimaat</li>
+                  <li>- Muneer Henery Badeer</li>
+                  <li>- Mohamed Ahmed Alyaski</li>
+                  <li>- Zaki Al Seweedy</li>
+                  <li>- Zaki Fanous</li>
+                  <li>- Mohamed Mazhar</li>
+                  <li>- Kamal Marzouk</li>
+                  <li>- Ezzat Mahmoud Ezzat</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/Kamal0102.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From December 21 1984 To April 04 1989</span>
+              <div class="blog-slider__text">
+                <strong>Chairman: Kamal Henery Abadair</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Abdel Gany Al Beshry</li>
+                  <li>- Abdel Rahman Gamal Al Din</li>
+                  <li>- Mohamed Al Yaski</li>
+                  <li>- Zaki Al Seweedy</li>
+                  <li>- Mahmoud Abu Al Nour</li>
+                  <li>- Mohamed Yehia Abu Hussien</li>
+                  <li>- Samir Shahin</li>
+                  <li>- Ibrahim Al Azab</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/Kamal0102.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From April 04 1989 To October 16 1992</span>
+              <div class="blog-slider__text">
+                <strong>Chairman: Kamal Henery Abadair</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Abdel Gany Al Beshry</li>
+                  <li>- Medhat Hamdi</li>
+                  <li>- Wagdi Haseeb</li>
+                  <li>- Emad Salah Al Deen</li>
+                  <li>- Mahmoud Abu Al Nour</li>
+                  <li>- Mohamed Samir Shahin</li>
+                  <li>- Hussam Mahdy Alaam
+                  <li>- Fathy Ibrahim Zyadaa</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/hamroush01.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From October 16 1992 To September 19 1996</span>
+              <div class="blog-slider__text">
+                <strong>Chairman: Ahmed Hamrush</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Kamal Hamza</li>
+                  <li>- Rashad Aref</li>
+                  <li>- Wagdi Haseeb</li>
+                  <li>- Amin Ghaly</li>
+                  <li>- Hassan Wasfy Hassan</li>
+                  <li>- Mohamed Hamdy Hamed</li>
+                  <li>- Mohamed Abu Alam</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/hamroush01.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From September 19 1996 To October 23 2000</span>
+              <div class="blog-slider__text">
+                <strong>Chairman: Ahmed Hamrush</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Kamal Hamza</li>
+                  <li>- Adel Iskandar</li>
+                  <li>- Abdul Qader Salem</li>
+                  <li>- Mohamed Abu Alam</li>
+                  <li>- Amin Ghaly</li>
+                  <li>- Marwan Mustafa</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/yaseen02.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From November 16 2000 To March 23 2001</span>
+              <div class="blog-slider__text">
+                <strong>Chairman: Ahmed Kamel Yassen</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Abdel Hady Nassif</li>
+                  <li>- Kamal Al Quady</li>
+                  <li>- Wagdi Haseeb</li>
+                  <li>- Ahmed Shoukry</li>
+                  <li>- Rafeea Abbaas Helmy</li>
+                  <li>- Galal Mustafa</li>
+                  <li>- Mohamed Abu Salem</li>
+                  <li>- Ezzat Mohamed Ezzat</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/amir05.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From March 22 2001 To December 24 2004</span>
+              <div class="blog-slider__text">
+                <strong>Chairman: Amir Ramsis Naguib</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Mohamed Adel Rabeeh</li>
+                  <li>- Tarek Aboulatta</li>
+                  <li>- Amin Ghaly</li>
+                  <li>- Rafeea Abbaas Helmy</li>
+                  <li>- Ahmed Shoukry</li>
+                  <li>- Adel Al Harakany</li>
+                  <li>- Hussam Ammar</li>
+                  <li>- Kamal Al Quady</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/amir05.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From December 24 2004 To September 26 2008</span>
+              <div class="blog-slider__text">
+                <strong>Chairman: Amir Ramsis Naguib</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Mohamed Adel Rabeeh</li>
+                  <li>- Tarek Aboulatta</li>
+                  <li>- Amr Tork</li>
+                  <li>- Rafeea Abbaas Helmy</li>
+                  <li>- Ahmed Helmy</li>
+                  <li>- Mohamed Anan</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/mhamdy02.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From 2008 To 2010</span>
+              <div class="blog-slider__text">
+                <strong>Chairman: Mohamed Hamdi Hamed</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Amir Ramsis Naguib</li>
+                  <li>- Mona Hegazy</li>
+                  <li>- Mohamed Enan</li>
+                  <li>- Ahmed Helmy</li>
+                  <li>- Yousry Ghamry</li>
+                  <li>- Mohamed Hassan</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/ahmedhelmy03.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From 2010 To 2012</span>
+              <div class="blog-slider__text">
+                <strong>Chairman: Ahmed Helmy</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Amir Ramsis Naguib</li>
+                  <li>- Mohamed Enan</li>
+                  <li>- Mohamed Hassan</li>
+                  <li>- Sherif Abu Asbae</li>
+                  <li>- Gamal Hazem</li>
+                  <li>- Omar Badawi</li>
+                  <li>- Amal Allaban</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/amir05.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From 2012 To 2016</span>
+              <div class="blog-slider__text">
+                <strong>Chairman: Amir Ramsis Naguib</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Rafeea Abbaas Helmy</li>
+                  <li>- Mohamed Adel Rabie</li>
+                  <li>- Mohamed Hassan</li>
+                  <li>- Gamal Hazem</li>
+                  <li>- Ismaïl Leheta</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/amir05.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From 2017 To 2021</span>
+              <div class="blog-slider__text">
+                <strong>Chairman: Amir Ramsis Naguib</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Mohamed Enan</li>
+                  <li>- Mohamed Yousry Ghamry</li>
+                  <li>- Gamal Hazem</li>
+                  <li>- Youssef Gabr</li>
+                  <li>- Iman Radi</li>
+                  <li>- Hesham Alam Eldeen</li>
+                  <li>- Ayman Abdel Wahab</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="images/history-slider/Chairman-mohamed-raslaan.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">From 2021 To 2024</span>
+              <div class="blog-slider__text">
+                <strong>Chairman: Mohamed Hatem Raslaan</strong>
+                <p>Members:</p>
+                <ul class="history-member">
+                  <li>- Tarek Aboulatta</li>
+                  <li>- Hatem Esmat</li>
+                  <li>- Ayman Abdel Wahab</li>
+                  <li>- Mohamed Hassan</li>
+                  <li>- Amal Allaban</li>
+                  <li>- Yousry Ghamry "Resigned"</li>
+                  <li>- Salah Hassan "Resigned"</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="slider"> 
-            <div class="slides">
-                <input type="radio" name="radio_btn" id="radio1">
-                <input type="radio" name="radio_btn" id="radio2">
-                <input type="radio" name="radio_btn" id="radio3">
-                <input type="radio" name="radio_btn" id="radio4">
-                <input type="radio" name="radio_btn" id="radio5">
-                <input type="radio" name="radio_btn" id="radio6">
-                <input type="radio" name="radio_btn" id="radio7">
-                <input type="radio" name="radio_btn" id="radio8">
-                <input type="radio" name="radio_btn" id="radio9">
-                <input type="radio" name="radio_btn" id="radio10">
-                <input type="radio" name="radio_btn" id="radio11">
-                <input type="radio" name="radio_btn" id="radio12">
-                <input type="radio" name="radio_btn" id="radio13">
-                <input type="radio" name="radio_btn" id="radio14">
-                <input type="radio" name="radio_btn" id="radio15">
-                <input type="radio" name="radio_btn" id="radio16">
-                <input type="radio" name="radio_btn" id="radio17">
-                <input type="radio" name="radio_btn" id="radio18">
-                <input type="radio" name="radio_btn" id="radio19">
-                <input type="radio" name="radio_btn" id="radio20">
-                <input type="radio" name="radio_btn" id="radio21">
-                <input type="radio" name="radio_btn" id="radio22">
-                <input type="radio" name="radio_btn" id="radio23">
-                <input type="radio" name="radio_btn" id="radio24">
-                <div class="slide first_slide">
-                    <div class="first"><div class="slide_text text_one"><span class="span_one"><i class="fa-solid fa-trophy"></i> Aisha Ayad</span><span class="span_two">Sporting Club</span></div>
-                    </div> 
-                </div>
-                <div class="slide">
-                  <div class="second"><div class="slide_text text_two"><span class="span_one"><i class="fa-solid fa-trophy"></i> Sherif Sabry</span><span class="span_two"> Heliopolis Club</span></div>
-                  </div>
-               </div>
-                <div class="slide">
-                   <div class="third"><div class="slide_text text_three"><span class="span_one"><i class="fa-solid fa-trophy"></i> Mostafa Abdel Hamid</span><span class="span_two"> El Shams Club</span></div>
-                   </div>
-                </div>
-                <div class="slide">
-                    <div class="fourth"><div class="slide_text text_four"><span class="span_one"><i class="fa-solid fa-trophy"></i> Amr Tork</span><span class="span_two"> Zamalek Club</span></div>
-                    </div>
-                </div>
-                <div class="slide">
-                  <div class="fifth"><div class="slide_text text_five"><span class="span_one"><i class="fa-solid fa-trophy"></i> Walid Salem</span><span class="span_two">Zamalek Club</span></div></div>
-                </div>
-                <div class="slide">
-                    <div class="sixth"><div class="slide_text text_six"><span class="span_one"><i class="fa-solid fa-trophy"></i> Hazem Mahmoud</span><span class="span_two">Sporting Club</span></div></div>
-                </div>
-                <div class="slide">
-                    <div class="seventh"><div class="slide_text text_seven"><span class="span_one"><i class="fa-solid fa-trophy"></i> Nahed Hassan</span><span class="span_two"> Shooting Club</span></div></div>
-                </div>
-                <div class="slide">
-                  <div class="eighth"><div class="slide_text text_eight"><span class="span_one"><i class="fa-solid fa-trophy"></i> Nana Hamza</span><span class="span_two">El Shams Club</span></div></div>
-                </div>
-                <div class="slide">
-                    <div class="ninth"><div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Ashraf Saad</span><span class="span_two">Sporting Club</span></div></div>
-                </div>
-                <div class="slide">
-                    <div class="tenth"><div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Hisham Abousbaa</span><span class="span_two">Gezira Sporting Club</span></div></div>
-                </div>
-                <div class="slide">
-                    <div class="eleven"><div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Khaled Younis</span><span class="span_two">Zamalek Club</span></div></div>
-                </div>
-                <div class="slide">
-                    <div class="twelve"><div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Walid Salah</span><span class="span_two">Zamalek Club</span></div></div>
-                </div>
-                <div class="slide">
-                  <div class="thirteen"><div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Hanan Rashad</span><span class="span_two">Sporting Club</span></div></div>
-                </div>
-                <div class="slide">
-                    <div class="fourteen"><div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Salah Hassan</span><span class="span_two">Shooting Club</span></div></div>
-                </div>
-                <div class="slide">
-                    <div class="fifteen"><div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Mohamed Kamal</span><span class="span_two">Zamalek Club</span></div></div>
-                </div>
-                <div class="slide">
-                    <div class="sixteen"><div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Eman El Farancawy</span><span class="span_two">El Tayaran Club</span></div></div>
-                </div>
-                <div class="slide">
-                    <div class="seventeen"><div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Hesham Abdel Gawad</span><span class="span_two">Maadi Sporting Club</span></div></div>
-                </div>
-                <div class="slide">
-                    <div class="eighteen"><div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Moheb Arian</span><span class="span_two">El Shams Club</span></div></div>
-                </div>
-                <div class="slide">
-                  <div class="ninteen"><div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Ayman Abdel Wahab</span><span class="span_two">Cairo Club</span></div></div>
-                </div>
-                <div class="slide">
-                    <div class="twenty"><div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Ahmed Elmahdy</span><span class="span_two">Shooting Club</span></div></div>
-                </div>
-                <div class="slide">
-                    <div class="twenty_one"><div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Ahmed Nasr</span><span class="span_two">Zamalek Club</span></div></div>
-                </div>
-                <div class="slide">
-                    <div class="twenty_two"><div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Mohamed Nasr</span><span class="span_two">Zamalek Club</span></div></div>
-                </div>
-                <div class="slide">
-                    <div class="twenty_three"><div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Soha Moustafa</span><span class="span_two">El Shams Club</span></div></div>
-                </div>
-                <div class="slide">
-                    <div class="twenty_four"><div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Moustafa Nezar</span><span class="span_two">El Rowad Club</span></div></div>
-                </div>
-               
-                <div class="navigation_auto">
-                    <div class="auto_btn1"></div>
-                    <div class="auto_btn2"></div>
-                    <div class="auto_btn3"></div>
-                    <div class="auto_btn4"></div>
-                    <div class="auto_btn5"></div>
-                    <div class="auto_btn6"></div>
-                    <div class="auto_btn7"></div>
-                    <div class="auto_btn8"></div>
-                    <div class="auto_btn9"></div>
-                    <div class="auto_btn10"></div>
-                    <div class="auto_btn11"></div>
-                    <div class="auto_btn12"></div>
-                    <div class="auto_btn13"></div>
-                    <div class="auto_btn14"></div>
-                    <div class="auto_btn15"></div>
-                    <div class="auto_btn16"></div>
-                    <div class="auto_btn17"></div>
-                    <div class="auto_btn18"></div>
-                    <div class="auto_btn19"></div>
-                    <div class="auto_btn20"></div>
-                    <div class="auto_btn21"></div>
-                    <div class="auto_btn22"></div>
-                    <div class="auto_btn23"></div>
-                    <div class="auto_btn24"></div>
-                </div>
-            </div>
-            <div class="navigation_manual">
-                <label for="radio1" class="manual_btn"></label>
-                <label for="radio2" class="manual_btn"></label>
-                <label for="radio3" class="manual_btn"></label>
-                <label for="radio4" class="manual_btn"></label>
-                <label for="radio5" class="manual_btn"></label>
-                <label for="radio6" class="manual_btn"></label> 
-                <label for="radio7" class="manual_btn"></label> 
-                <label for="radio8" class="manual_btn"></label> 
-                <label for="radio9" class="manual_btn"></label>
-                <label for="radio10" class="manual_btn"></label>
-                <label for="radio11" class="manual_btn"></label>
-                <label for="radio12" class="manual_btn"></label>
-                <label for="radio13" class="manual_btn"></label>
-                <label for="radio14" class="manual_btn"></label>
-                <label for="radio15" class="manual_btn"></label>
-                <label for="radio16" class="manual_btn"></label>
-                <label for="radio17" class="manual_btn"></label>
-                <label for="radio18" class="manual_btn"></label>
-                <label for="radio19" class="manual_btn"></label>
-                <label for="radio20" class="manual_btn"></label>
-                <label for="radio21" class="manual_btn"></label>
-                <label for="radio22" class="manual_btn"></label>
-                <label for="radio23" class="manual_btn"></label>
-                <label for="radio24" class="manual_btn"></label>
-            </div>
-        </div>
-    </div> 
-    <div class="section_five">
-        <div id="community_title" class="community_title box box1">
-            local croquet community
-        </div>
-        <div class="slider box box2">
-            <div class="slides">
-                <input type="radio" name="radio_btnFive" id="radio25">
-                <input type="radio" name="radio_btnFive" id="radio26">
-                <input type="radio" name="radio_btnFive" id="radio27">
-                <input type="radio" name="radio_btnFive" id="radio28">
-                <input type="radio" name="radio_btnFive" id="radio29">
-                <input type="radio" name="radio_btnFive" id="radio30">
-                <input type="radio" name="radio_btnFive" id="radio31">
-                <input type="radio" name="radio_btnFive" id="radio32">
-                <input type="radio" name="radio_btnFive" id="radio33">
-                <div class="slide first_slide">
-                    <div class="first"></div>
-                </div>
-                <div class="slide">
-                   <div class="second"></div>
-                </div>
-                <div class="slide">
-                  <div class="third"></div>
-                </div>
-                <div class="slide">
-                  <div class="fourth"></div>
-                </div>
-                <div class="slide">
-                    <div class="fifth"></div>
-                </div>
-                <div class="slide">
-                    <div class="sixth"></div>
-                </div>
-                <div class="slide">
-                    <div class="seventh"></div>
-                </div>
-                <div class="slide">
-                    <div class="eighth"></div>
-                </div>
-                <div class="slide">
-                    <div class="ninth"></div>
-                </div>
-                <div class="navigation_auto">
-                    <div class="auto_btn25"></div>
-                    <div class="auto_btn26"></div>
-                    <div class="auto_btn27"></div>
-                    <div class="auto_btn28"></div>
-                    <div class="auto_btn29"></div>
-                    <div class="auto_btn30"></div>
-                    <div class="auto_btn31"></div>
-                    <div class="auto_btn32"></div>
-                    <div class="auto_btn33"></div>
-                </div>
-            </div>
-            <div class="navigation_manual">
-                <label for="radio25" class="manual_btn"></label>
-                <label for="radio26" class="manual_btn"></label>
-                <label for="radio27" class="manual_btn"></label>
-                <label for="radio28" class="manual_btn"></label>
-                <label for="radio29" class="manual_btn"></label>
-                <label for="radio30" class="manual_btn"></label> 
-                <label for="radio31" class="manual_btn"></label> 
-                <label for="radio32" class="manual_btn"></label> 
-                <label for="radio33" class="manual_btn"></label> 
-            </div>
-        </div>
-    </div>  
-    <div class="section_six" >
-        <div class="lost-text box">THE PALYERS WE'VE LOST IN 2022</div>
-        <div class="carousel" id="bb" style="height: 500px; perspective: 250px;">
-            <a class="carousel-item ss " style="width:450px;" href="#"><img class="img-border" src="images/slider/mohamed-anan01.jpg">
-                <div class="black-line"></div>
-                <div class="slide_die_text text_die">
-                    <span class="span_one-slide">Mohamed Enan</span><div></div><sdpan class="die-history">30/5/2022</sdpan>
-                </div>
-            </a>
-            <a class="carousel-item ss "  style="width:450px;" href="#"><img class="img-border" src="images/slider/rafiaa02 (1).jpg">
-                <div class="black-line"></div>
-                <div class="slide_die_text text_die">
-                    <span class="span_one-slide">Rafeaa Abaas</span><div></div><sdpan class="die-history">8/2/2022</sdpan>
-                </div>
-            </a>
-            <a class="carousel-item ss "  style="width:450px;" href="#"><img class="img-border" src="images/hesham abdel gawad01.jpg">
-                <div class="black-line"></div>
-                <div class="slide_die_text text_die">
-                    <span class="span_one-slide">Hesham Abdel Gawad</span><div></div><sdpan class="die-history">17/2/2022</sdpan>
-                </div>
-            </a>
-            <a class="carousel-item ss "  style="width:450px;" href="#"><img class="img-border" src="images/slider/soaad-abu-taleb02 (1).jpg">
-                <div class="black-line"></div>
-                <div class="slide_die_text text_die">
-                    <span class="span_one-slide">Sooad Abu Taleb</span><div></div><sdpan class="die-history">21/3/2022</sdpan>
-                </div>
-            </a>
-            <a class="carousel-item ss "  style="width:450px;" href="#"><img class="img-border" src="images/slider/Raja-Hussain1.jpeg">
-                <div class="black-line"></div>
-                <div class="slide_die_text text_die">
-                    <span class="span_one-slide">Ragaa Hussein</span><div></div><sdpan class="die-history">9/8/2022</sdpan>
-                </div>
-            </a>
-        </div>
-        <div class="lost-text-mobile box">THE PALYERS WE'VE LOST IN 2022</div>
-        <div class="sectiom-imge-moblile">
-            <div class="img-container box img-1">
-                <img class="img-die img-border" src="images/slider/mohamed-anan01.jpg" alt="" srcset="">
-                <div class="black-line"></div>
-                <div class="slide_die_text text_die">
-                    <span class="span_one-slide">Mohamed Enan</span><div></div><sdpan class="die-history">30/5/2022</sdpan>
-                </div>
-            </div>
-            <div class="img-container box img-2">
-                <img class="img-die img-border" src="images/slider/mohamed-anan02.jpg" alt="" srcset="">
-                <div class="black-line"></div>
-                <div class="slide_die_text text_die">
-                    <span class="span_one-slide">Mohamed Enan</span><div></div><sdpan class="die-history">30/5/2022</sdpan>
-                </div>
-            </div>
-            <div class="img-container box img-1">
-                <img class="img-die img-border" src="images/slider/rafiaa02 (1).jpg" alt="" srcset="">
-                <div class="black-line"></div>
-                <div class="slide_die_text text_die">
-                    <span class="span_one-slide">Rafeaa Abaas</span><div></div><sdpan class="die-history">8/2/2022</sdpan>
-                </div>
-            </div>
-            <div class="img-container box img-2">
-                <img class="img-die img-border" src="images/slider/rafiaa01 (1).jpg" alt="" srcset="">
-                <div class="black-line"></div>
-                <div class="slide_die_text text_die">
-                    <span class="span_one-slide">Rafeaa Abaas</span><div></div><sdpan class="die-history">8/2/2022</sdpan>
-                </div>
-            </div>
-            <div class="img-container box img-1">
-                <img class="img-die img-border" src="images/hesham abdel gawad01.jpg" alt="" srcset="">
-                <div class="black-line"></div>
-                <div class="slide_die_text text_die custom-hight">
-                    <span class="span_one-slide">Hesham Abdel Gawad</span><div></div><sdpan class="die-history">17/2/2022</sdpan>
-                </div>
-            </div>
-            <div class="img-container box img-2">
-                <img class="img-die img-border" src="images/slider/hesham abdel gawad02.jpg" alt="" srcset="">
-                <div class="black-line"></div>
-                <div class="slide_die_text text_die custom-hight">
-                    <span class="span_one-slide">Hesham Abdel Gawad</span><div></div><sdpan class="die-history">17/2/2022</sdpan>
-                </div>
-            </div>
-            <div class="img-container box img-1">
-                <img class="img-die img-border" src="images/slider/soaad-abu-taleb02 (1).jpg"" srcset="" >
-                <div class="black-line"></div>
-                <div class="slide_die_text text_die">
-                    <span class="span_one-slide">Sooad Abu Taleb</span><div></div><sdpan class="die-history">21/3/2022</sdpan>
-                </div>
-            </div>
-            <div class="img-container box img-2">
-                <img class="img-die img-border" src="images/slider/soaad-abu-taleb01 (2) (1) (1) (1).jpg" alt="" srcset="" >
-                <div class="black-line"></div>
-                <div class="slide_die_text text_die">
-                    <span class="span_one-slide">Sooad Abu Taleb</span><div></div><sdpan class="die-history">21/3/2022</sdpan>
-                </div>
-            </div>
-            <div class="img-container box img-1">
-                <img class="img-die img-border" src="images/slider/Raja-Hussain1.jpeg" alt="" srcset=""">
-                <div class="black-line"></div>
-                <div class="slide_die_text text_die">
-                    <span class="span_one-slide">Ragaa Hussein</span><div></div><sdpan class="die-history">9/8/2022</sdpan>
-                </div>
-            </div>
-            <div class="img-container box img-2">
-                <img class="img-die img-border" src="images/slider/Raja-Hussain2.jpeg" alt="" srcset="">
-                <div class="black-line"></div>
-                <div class="slide_die_text text_die">
-                    <span class="span_one-slide">Ragaa Hussein</span><div></div><sdpan class="die-history">9/8/2022</sdpan>
-                </div>
-            </div>
-        </div>
+        <div class="blog-slider__pagination"></div>
+      </div>
+
     </div>
-    <section class="section_bigtenth" >
-        <div class="main_section_tenth">
-            <div class="contact_us opacity box">
-                Contact US<small>We will be happy to hear from you</small>
-            </div>
+  </section>
+  <!--end history slider -->
+
+  <!--start section four  -->
+  <div class="section_four">
+    <div id="champoins_title" class="champions_title">
+      Memorable photos of the Egyptian champions in throughout the different times
+    </div>
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="radio_btn" id="radio1">
+        <input type="radio" name="radio_btn" id="radio2">
+        <input type="radio" name="radio_btn" id="radio3">
+        <input type="radio" name="radio_btn" id="radio4">
+        <input type="radio" name="radio_btn" id="radio5">
+        <input type="radio" name="radio_btn" id="radio6">
+        <input type="radio" name="radio_btn" id="radio7">
+        <input type="radio" name="radio_btn" id="radio8">
+        <input type="radio" name="radio_btn" id="radio9">
+        <input type="radio" name="radio_btn" id="radio10">
+        <input type="radio" name="radio_btn" id="radio11">
+        <input type="radio" name="radio_btn" id="radio12">
+        <input type="radio" name="radio_btn" id="radio13">
+        <input type="radio" name="radio_btn" id="radio14">
+        <input type="radio" name="radio_btn" id="radio15">
+        <input type="radio" name="radio_btn" id="radio16">
+        <input type="radio" name="radio_btn" id="radio17">
+        <input type="radio" name="radio_btn" id="radio18">
+        <input type="radio" name="radio_btn" id="radio19">
+        <input type="radio" name="radio_btn" id="radio20">
+        <input type="radio" name="radio_btn" id="radio21">
+        <input type="radio" name="radio_btn" id="radio22">
+        <input type="radio" name="radio_btn" id="radio23">
+        <input type="radio" name="radio_btn" id="radio24">
+        <div class="slide first_slide">
+          <div class="first">
+            <div class="slide_text text_one"><span class="span_one"><i class="fa-solid fa-trophy"></i> Aisha
+                Ayad</span><span class="span_two">Sporting Club</span></div>
+          </div>
         </div>
-        <div class="section_tenth">
-            <div class="tenth_west box box1">
-                <h1 class="second_h1"><small>Contact's Details</small></h1>
-                <div class="centered">
-                    <ul class="bullet">
-                        <li class="first_icons"><i class="fas fa-map"></i>Address:<span> Al Jazira Club, Al Khail Gate No. 5, Cairo; Egypt</span></li>
-                        <li class="second_icons"><i class="fas fa-phone-alt"></i>Phone:<span>+2 27359082 - +2 1141652554</span></li>
-                        <li class="third_icons"><i class="fas fa-envelope"></i>Email:<span>info@egycf.com</span></li>
-                        <li class="fourth_icons"><i class="fas fa-globe"></i>Website:<span>https://www.egycf.com</span></li>
-                    </ul>
-                </div>
-                <!-- <form ""="" class="tenth_form" method="">
+        <div class="slide">
+          <div class="second">
+            <div class="slide_text text_two"><span class="span_one"><i class="fa-solid fa-trophy"></i> Sherif
+                Sabry</span><span class="span_two"> Heliopolis Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="third">
+            <div class="slide_text text_three"><span class="span_one"><i class="fa-solid fa-trophy"></i> Mostafa Abdel
+                Hamid</span><span class="span_two"> El Shams Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="fourth">
+            <div class="slide_text text_four"><span class="span_one"><i class="fa-solid fa-trophy"></i> Amr
+                Tork</span><span class="span_two"> Zamalek Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="fifth">
+            <div class="slide_text text_five"><span class="span_one"><i class="fa-solid fa-trophy"></i> Walid
+                Salem</span><span class="span_two">Zamalek Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="sixth">
+            <div class="slide_text text_six"><span class="span_one"><i class="fa-solid fa-trophy"></i> Hazem
+                Mahmoud</span><span class="span_two">Sporting Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="seventh">
+            <div class="slide_text text_seven"><span class="span_one"><i class="fa-solid fa-trophy"></i> Nahed
+                Hassan</span><span class="span_two"> Shooting Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="eighth">
+            <div class="slide_text text_eight"><span class="span_one"><i class="fa-solid fa-trophy"></i> Nana
+                Hamza</span><span class="span_two">El Shams Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="ninth">
+            <div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Ashraf
+                Saad</span><span class="span_two">Sporting Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="tenth">
+            <div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Hisham
+                Abousbaa</span><span class="span_two">Gezira Sporting Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="eleven">
+            <div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Khaled
+                Younis</span><span class="span_two">Zamalek Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="twelve">
+            <div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Walid
+                Salah</span><span class="span_two">Zamalek Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="thirteen">
+            <div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Hanan
+                Rashad</span><span class="span_two">Sporting Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="fourteen">
+            <div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Salah
+                Hassan</span><span class="span_two">Shooting Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="fifteen">
+            <div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Mohamed
+                Kamal</span><span class="span_two">Zamalek Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="sixteen">
+            <div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Eman El
+                Farancawy</span><span class="span_two">El Tayaran Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="seventeen">
+            <div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Hesham Abdel
+                Gawad</span><span class="span_two">Maadi Sporting Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="eighteen">
+            <div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Moheb
+                Arian</span><span class="span_two">El Shams Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="ninteen">
+            <div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Ayman Abdel
+                Wahab</span><span class="span_two">Cairo Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="twenty">
+            <div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Ahmed
+                Elmahdy</span><span class="span_two">Shooting Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="twenty_one">
+            <div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Ahmed
+                Nasr</span><span class="span_two">Zamalek Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="twenty_two">
+            <div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Mohamed
+                Nasr</span><span class="span_two">Zamalek Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="twenty_three">
+            <div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Soha
+                Moustafa</span><span class="span_two">El Shams Club</span></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="twenty_four">
+            <div class="slide_text text_nine"><span class="span_one"><i class="fa-solid fa-trophy"></i> Moustafa
+                Nezar</span><span class="span_two">El Rowad Club</span></div>
+          </div>
+        </div>
+
+        <div class="navigation_auto">
+          <div class="auto_btn1"></div>
+          <div class="auto_btn2"></div>
+          <div class="auto_btn3"></div>
+          <div class="auto_btn4"></div>
+          <div class="auto_btn5"></div>
+          <div class="auto_btn6"></div>
+          <div class="auto_btn7"></div>
+          <div class="auto_btn8"></div>
+          <div class="auto_btn9"></div>
+          <div class="auto_btn10"></div>
+          <div class="auto_btn11"></div>
+          <div class="auto_btn12"></div>
+          <div class="auto_btn13"></div>
+          <div class="auto_btn14"></div>
+          <div class="auto_btn15"></div>
+          <div class="auto_btn16"></div>
+          <div class="auto_btn17"></div>
+          <div class="auto_btn18"></div>
+          <div class="auto_btn19"></div>
+          <div class="auto_btn20"></div>
+          <div class="auto_btn21"></div>
+          <div class="auto_btn22"></div>
+          <div class="auto_btn23"></div>
+          <div class="auto_btn24"></div>
+        </div>
+      </div>
+      <div class="navigation_manual">
+        <label for="radio1" class="manual_btn"></label>
+        <label for="radio2" class="manual_btn"></label>
+        <label for="radio3" class="manual_btn"></label>
+        <label for="radio4" class="manual_btn"></label>
+        <label for="radio5" class="manual_btn"></label>
+        <label for="radio6" class="manual_btn"></label>
+        <label for="radio7" class="manual_btn"></label>
+        <label for="radio8" class="manual_btn"></label>
+        <label for="radio9" class="manual_btn"></label>
+        <label for="radio10" class="manual_btn"></label>
+        <label for="radio11" class="manual_btn"></label>
+        <label for="radio12" class="manual_btn"></label>
+        <label for="radio13" class="manual_btn"></label>
+        <label for="radio14" class="manual_btn"></label>
+        <label for="radio15" class="manual_btn"></label>
+        <label for="radio16" class="manual_btn"></label>
+        <label for="radio17" class="manual_btn"></label>
+        <label for="radio18" class="manual_btn"></label>
+        <label for="radio19" class="manual_btn"></label>
+        <label for="radio20" class="manual_btn"></label>
+        <label for="radio21" class="manual_btn"></label>
+        <label for="radio22" class="manual_btn"></label>
+        <label for="radio23" class="manual_btn"></label>
+        <label for="radio24" class="manual_btn"></label>
+      </div>
+    </div>
+  </div>
+  <div class="section_five">
+    <div id="community_title" class="community_title box box1">
+      local croquet community
+    </div>
+    <div class="slider box box2">
+      <div class="slides">
+        <input type="radio" name="radio_btnFive" id="radio25">
+        <input type="radio" name="radio_btnFive" id="radio26">
+        <input type="radio" name="radio_btnFive" id="radio27">
+        <input type="radio" name="radio_btnFive" id="radio28">
+        <input type="radio" name="radio_btnFive" id="radio29">
+        <input type="radio" name="radio_btnFive" id="radio30">
+        <input type="radio" name="radio_btnFive" id="radio31">
+        <input type="radio" name="radio_btnFive" id="radio32">
+        <input type="radio" name="radio_btnFive" id="radio33">
+        <div class="slide first_slide">
+          <div class="first"></div>
+        </div>
+        <div class="slide">
+          <div class="second"></div>
+        </div>
+        <div class="slide">
+          <div class="third"></div>
+        </div>
+        <div class="slide">
+          <div class="fourth"></div>
+        </div>
+        <div class="slide">
+          <div class="fifth"></div>
+        </div>
+        <div class="slide">
+          <div class="sixth"></div>
+        </div>
+        <div class="slide">
+          <div class="seventh"></div>
+        </div>
+        <div class="slide">
+          <div class="eighth"></div>
+        </div>
+        <div class="slide">
+          <div class="ninth"></div>
+        </div>
+        <div class="navigation_auto">
+          <div class="auto_btn25"></div>
+          <div class="auto_btn26"></div>
+          <div class="auto_btn27"></div>
+          <div class="auto_btn28"></div>
+          <div class="auto_btn29"></div>
+          <div class="auto_btn30"></div>
+          <div class="auto_btn31"></div>
+          <div class="auto_btn32"></div>
+          <div class="auto_btn33"></div>
+        </div>
+      </div>
+      <div class="navigation_manual">
+        <label for="radio25" class="manual_btn"></label>
+        <label for="radio26" class="manual_btn"></label>
+        <label for="radio27" class="manual_btn"></label>
+        <label for="radio28" class="manual_btn"></label>
+        <label for="radio29" class="manual_btn"></label>
+        <label for="radio30" class="manual_btn"></label>
+        <label for="radio31" class="manual_btn"></label>
+        <label for="radio32" class="manual_btn"></label>
+        <label for="radio33" class="manual_btn"></label>
+      </div>
+    </div>
+  </div>
+  <div class="section_six">
+    <div class="lost-text box">THE PALYERS WE'VE LOST IN 2022</div>
+    <div class="carousel" id="bb" style="height: 500px; perspective: 250px;">
+      <a class="carousel-item ss " style="width:450px;" href="#"><img class="img-border"
+          src="images/slider/mohamed-anan01.jpg">
+        <div class="black-line"></div>
+        <div class="slide_die_text text_die">
+          <span class="span_one-slide">Mohamed Enan</span>
+          <div></div>
+          <sdpan class="die-history">30/5/2022</sdpan>
+        </div>
+      </a>
+      <a class="carousel-item ss " style="width:450px;" href="#"><img class="img-border"
+          src="images/slider/rafiaa02 (1).jpg">
+        <div class="black-line"></div>
+        <div class="slide_die_text text_die">
+          <span class="span_one-slide">Rafeaa Abaas</span>
+          <div></div>
+          <sdpan class="die-history">8/2/2022</sdpan>
+        </div>
+      </a>
+      <a class="carousel-item ss " style="width:450px;" href="#"><img class="img-border"
+          src="images/hesham abdel gawad01.jpg">
+        <div class="black-line"></div>
+        <div class="slide_die_text text_die">
+          <span class="span_one-slide">Hesham Abdel Gawad</span>
+          <div></div>
+          <sdpan class="die-history">17/2/2022</sdpan>
+        </div>
+      </a>
+      <a class="carousel-item ss " style="width:450px;" href="#"><img class="img-border"
+          src="images/slider/soaad-abu-taleb02 (1).jpg">
+        <div class="black-line"></div>
+        <div class="slide_die_text text_die">
+          <span class="span_one-slide">Sooad Abu Taleb</span>
+          <div></div>
+          <sdpan class="die-history">21/3/2022</sdpan>
+        </div>
+      </a>
+      <a class="carousel-item ss " style="width:450px;" href="#"><img class="img-border"
+          src="images/slider/Raja-Hussain1.jpeg">
+        <div class="black-line"></div>
+        <div class="slide_die_text text_die">
+          <span class="span_one-slide">Ragaa Hussein</span>
+          <div></div>
+          <sdpan class="die-history">9/8/2022</sdpan>
+        </div>
+      </a>
+    </div>
+    <div class="lost-text-mobile box">THE PALYERS WE'VE LOST IN 2022</div>
+    <div class="sectiom-imge-moblile">
+      <div class="img-container box img-1">
+        <img class="img-die img-border" src="images/slider/mohamed-anan01.jpg" alt="" srcset="">
+        <div class="black-line"></div>
+        <div class="slide_die_text text_die">
+          <span class="span_one-slide">Mohamed Enan</span>
+          <div></div>
+          <sdpan class="die-history">30/5/2022</sdpan>
+        </div>
+      </div>
+      <div class="img-container box img-2">
+        <img class="img-die img-border" src="images/slider/mohamed-anan02.jpg" alt="" srcset="">
+        <div class="black-line"></div>
+        <div class="slide_die_text text_die">
+          <span class="span_one-slide">Mohamed Enan</span>
+          <div></div>
+          <sdpan class="die-history">30/5/2022</sdpan>
+        </div>
+      </div>
+      <div class="img-container box img-1">
+        <img class="img-die img-border" src="images/slider/rafiaa02 (1).jpg" alt="" srcset="">
+        <div class="black-line"></div>
+        <div class="slide_die_text text_die">
+          <span class="span_one-slide">Rafeaa Abaas</span>
+          <div></div>
+          <sdpan class="die-history">8/2/2022</sdpan>
+        </div>
+      </div>
+      <div class="img-container box img-2">
+        <img class="img-die img-border" src="images/slider/rafiaa01 (1).jpg" alt="" srcset="">
+        <div class="black-line"></div>
+        <div class="slide_die_text text_die">
+          <span class="span_one-slide">Rafeaa Abaas</span>
+          <div></div>
+          <sdpan class="die-history">8/2/2022</sdpan>
+        </div>
+      </div>
+      <div class="img-container box img-1">
+        <img class="img-die img-border" src="images/hesham abdel gawad01.jpg" alt="" srcset="">
+        <div class="black-line"></div>
+        <div class="slide_die_text text_die custom-hight">
+          <span class="span_one-slide">Hesham Abdel Gawad</span>
+          <div></div>
+          <sdpan class="die-history">17/2/2022</sdpan>
+        </div>
+      </div>
+      <div class="img-container box img-2">
+        <img class="img-die img-border" src="images/slider/hesham abdel gawad02.jpg" alt="" srcset="">
+        <div class="black-line"></div>
+        <div class="slide_die_text text_die custom-hight">
+          <span class="span_one-slide">Hesham Abdel Gawad</span>
+          <div></div>
+          <sdpan class="die-history">17/2/2022</sdpan>
+        </div>
+      </div>
+      <div class="img-container box img-1">
+        <img class="img-die img-border" src="images/slider/soaad-abu-taleb02 (1).jpg"" srcset="" >
+                <div class=" black-line">
+      </div>
+      <div class="slide_die_text text_die">
+        <span class="span_one-slide">Sooad Abu Taleb</span>
+        <div></div>
+        <sdpan class="die-history">21/3/2022</sdpan>
+      </div>
+    </div>
+    <div class="img-container box img-2">
+      <img class="img-die img-border" src="images/slider/soaad-abu-taleb01 (2) (1) (1) (1).jpg" alt="" srcset="">
+      <div class="black-line"></div>
+      <div class="slide_die_text text_die">
+        <span class="span_one-slide">Sooad Abu Taleb</span>
+        <div></div>
+        <sdpan class="die-history">21/3/2022</sdpan>
+      </div>
+    </div>
+    <div class="img-container box img-1">
+      <img class="img-die img-border" src="images/slider/Raja-Hussain1.jpeg" alt="" srcset=""">
+                <div class=" black-line">
+    </div>
+    <div class="slide_die_text text_die">
+      <span class="span_one-slide">Ragaa Hussein</span>
+      <div></div>
+      <sdpan class="die-history">9/8/2022</sdpan>
+    </div>
+  </div>
+  <div class="img-container box img-2">
+    <img class="img-die img-border" src="images/slider/Raja-Hussain2.jpeg" alt="" srcset="">
+    <div class="black-line"></div>
+    <div class="slide_die_text text_die">
+      <span class="span_one-slide">Ragaa Hussein</span>
+      <div></div>
+      <sdpan class="die-history">9/8/2022</sdpan>
+    </div>
+  </div>
+  </div>
+  </div>
+  <section class="section_bigtenth">
+    <div class="main_section_tenth">
+      <div class="contact_us opacity box">
+        Contact US<small>We will be happy to hear from you</small>
+      </div>
+    </div>
+    <div class="section_tenth">
+      <div class="tenth_west box box1">
+        <h1 class="second_h1"><small>Contact's Details</small></h1>
+        <div class="centered">
+          <ul class="bullet">
+            <li class="first_icons"><i class="fas fa-map"></i>Address:<span> Al Jazira Club, Al Khail Gate No. 5, Cairo;
+                Egypt</span></li>
+            <li class="second_icons"><i class="fas fa-phone-alt"></i>Phone:<span>+2 27359082 - +2 1141652554</span></li>
+            <li class="third_icons"><i class="fas fa-envelope"></i>Email:<span>info@egycf.com</span></li>
+            <li class="fourth_icons"><i class="fas fa-globe"></i>Website:<span>https://www.egycf.com</span></li>
+          </ul>
+        </div>
+        <!-- <form ""="" class="tenth_form" method="">
                     <fieldset>
                         <legend>Contact Details</legend>
                          <input type="text" placeholder="Name">
@@ -874,60 +1001,66 @@
                          <button>Submit</button>
                      </fieldset>
                  </form> -->
-            </div>
-            <div class="tenth_east box box2">
-                <iframe id="map_frame" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3453.573496212813!2d31.21744811423316!3d30.04909158188056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x145840d9cca401e9%3A0xdaab61569222e562!2z2YXYsdmD2LIg2LTYqNin2Kgg2KfZhNis2LLZitix2KksIDExMjIx2IwgMTIgRWwgR2FiYWxheWEgU3QsIFphbWFsZWssIENhaXJvIEdvdmVybm9yYXRlIDExMjIx!3m2!1d30.049091599999997!2d31.2196368!5e0!3m2!1sen!2seg!4v1649788918335!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </div>
-    </section>
-    <footer >
-         <button id="scrollBtn" class="btn top">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18px" height="18px">
-              <path d="M0 0h24v24H0V0z" fill="none"></path>
-              <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path>
-            </svg>
-          </button>
-          <div class="social-icons">
-            <div class="social-icons-image">
-                <a href="https://www.facebook.com/groups/172430546104431" target="_blank">
-                    <img src="images/icons/facebook04.png" alt="Instagram Icon">
-                </a>
-            </div>
-            <div class="social-icons-image">
-                <a href="http://www.whatsapp.com/" target="_blank">
-                    <img src="images/icons/whatsapp02.png" alt="whatsapp Icon">
-                </a>
-            </div>
-            <div class="social-icons-image">
-                
-                <a href="https://www.facebook.com/groups/589724841140212" target="_blank">
-                    <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook Icon">
-                </a>
-            </div>
-            <div class="social-icons-image">
-                <a href="https://www.twitter.com" target="_blank">
-                    <img src="https://jonbennallick.co.uk/wp-content/uploads/2012/11/Twitter-Logo-Icon-by-Jon-Bennallick-02-300x300.png" alt="Twitter Icon">
-                </a>
-                
-            </div>
-            <div class="social-icons-image linked">
-                <a href="https://www.linkedin.com" target="_blank">
-                    <img src="images/icons/linkedIn_PNG29.png" alt="Linkedin Icon">
-                </a>
-            </div>
-          </div>
+      </div>
+      <div class="tenth_east box box2">
+        <iframe id="map_frame"
+          src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3453.573496212813!2d31.21744811423316!3d30.04909158188056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x145840d9cca401e9%3A0xdaab61569222e562!2z2YXYsdmD2LIg2LTYqNin2Kgg2KfZhNis2LLZitix2KksIDExMjIx2IwgMTIgRWwgR2FiYWxheWEgU3QsIFphbWFsZWssIENhaXJvIEdvdmVybm9yYXRlIDExMjIx!3m2!1d30.049091599999997!2d31.2196368!5e0!3m2!1sen!2seg!4v1649788918335!5m2!1sen!2seg"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <button id="scrollBtn" class="btn top">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18px" height="18px">
+        <path d="M0 0h24v24H0V0z" fill="none"></path>
+        <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path>
+      </svg>
+    </button>
+    <div class="social-icons">
+      <div class="social-icons-image">
+        <a href="https://www.facebook.com/groups/172430546104431" target="_blank">
+          <img src="images/icons/facebook04.png" alt="Instagram Icon">
+        </a>
+      </div>
+      <div class="social-icons-image">
+        <a href="http://www.whatsapp.com/" target="_blank">
+          <img src="images/icons/whatsapp02.png" alt="whatsapp Icon">
+        </a>
+      </div>
+      <div class="social-icons-image">
 
-              <div class="world-croquet"><a href="https://worldcroquet.org/"  ;" target="_blank">World-Croquet</a></div>
-              <div class="croquet-scores"><a href="https://croquetscores.com/2022/gc" target="_blank">Croquet-Scores <br> 2022-2023</a></div>
+        <a href="https://www.facebook.com/groups/589724841140212" target="_blank">
+          <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook Icon">
+        </a>
+      </div>
+      <div class="social-icons-image">
+        <a href="https://www.twitter.com" target="_blank">
+          <img
+            src="https://jonbennallick.co.uk/wp-content/uploads/2012/11/Twitter-Logo-Icon-by-Jon-Bennallick-02-300x300.png"
+            alt="Twitter Icon">
+        </a>
 
-          <h4>Copyrights© 2022 Egyptian Croquet Federation</h4>
-          <h6>Designed By Digital Force Co. '+201000703000'</h6> 
+      </div>
+      <div class="social-icons-image linked">
+        <a href="https://www.linkedin.com" target="_blank">
+          <img src="images/icons/linkedIn_PNG29.png" alt="Linkedin Icon">
+        </a>
+      </div>
+    </div>
+
+    <div class="world-croquet"><a href="https://worldcroquet.org/" ;" target="_blank">World-Croquet</a></div>
+    <div class="croquet-scores"><a href="https://croquetscores.com/2022/gc" target="_blank">Croquet-Scores <br>
+        2022-2023</a></div>
+
+    <h4>Copyrights© 2022 Egyptian Croquet Federation</h4>
+    <h6>Designed By Digital Force Co. '+201000703000'</h6>
 
 
 
 
 
-<!-- 
+    <!-- 
 
             <button id="scrollBtn" class="btn top">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18px" height="18px">
@@ -975,13 +1108,13 @@
               <h6>Designed By Digital Force Co. '+201000703000'</h6> -->
 
 
-           
-       
-    </footer>
 
-     <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    
-    <script src="js/main.js"></script>
+
+  </footer>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="js/main.js"></script>
 </body>

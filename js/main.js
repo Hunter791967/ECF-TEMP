@@ -2,7 +2,7 @@
 // This function is for Creating a Countdown Timer
 
 // Set the date we're counting down to
-var countDownDate = new Date("March 31, 2023 15:00:00").getTime();
+var countDownDate = new Date("October 06, 2023 12:00:00").getTime();
 // Update the count down every 1 second
 var x = setInterval(function () {
   // Get today's date and time
